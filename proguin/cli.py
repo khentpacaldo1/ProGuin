@@ -1,3 +1,9 @@
+"""Command-line interface for ProGuin.
+
+This module handles interactive task and page management, including loading and
+saving the JSON-backed data file, creating tasks, scheduling start times, and
+updating task status from the terminal.
+"""
 import json
 import os
 from datetime import datetime, timedelta
