@@ -1,3 +1,10 @@
+"""Command-line interface for ProGuin.
+
+This module handles interactive task and page management, including loading and
+saving the JSON-backed data file, creating tasks, scheduling start times, and
+updating task status from the terminal.
+"""
+
 import json
 import os
 from datetime import datetime, timedelta
@@ -68,33 +75,12 @@ def create_task():
     return task
 
 
-def delete_task(path, id):
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    tasks = data["tasks"]
-
-    task_to_delete = id - 1
-
-    if 0 <= task_to_delete < len(tasks):
-        tasks.pop(task_to_delete)
-    else:
-        print(f" {id} is out of range, please enter valid ID.")
+def delete_task(page, task_index):
+    """Delete a task by 0-based index from the in-memory page."""
+    if task_index < 0 or task_index >= len(page["tasks"]):
+        print("Invalid task index")
         return
-
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    data["tasks"] = tasks
-
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-    print(f"Deleted task with ID {id}.")
-
-    page = load_page()
-
-    return page
+    page["tasks"].pop(task_index)
 
 
 def add_task_to_page(page, task):
@@ -243,8 +229,12 @@ def main():
                     save_page(page)
                     print("✔ Task marked as done")
             elif choice == "4":
-                task_to_remove = input("Enter the ID of a task you want to remove: ")
-                page = delete_task("data/page.json", int(task_to_remove))
+                list_tasks(page)
+                if len(page["tasks"]) > 0:
+                    index = get_task_index(page, "Enter task ID to remove: ")
+                    delete_task(page, index)
+                    save_page(page)
+                    print("🗑 Task removed")
             elif choice == "5":
                 save_page(page)
                 print("👋 See you soon. Keep moving forward.")
